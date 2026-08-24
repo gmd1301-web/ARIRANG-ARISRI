@@ -1,0 +1,8 @@
+.intro-shortcuts{grid-template-columns:repeat(4,minmax(145px,190px))}
+.intro-shortcuts button:nth-child(4){background:#30271de8;color:#f6e3bd;border-color:#d2a65b;box-shadow:0 0 0 3px #e0ba7166,0 10px 24px #21160c44;transform:translateY(-4px)}
+.intro-shortcuts button:nth-child(4):hover{background:#17120e;transform:translateY(-7px)}
+.poster-panel figcaption::after{content:" · 출처: 국가유산포털"}
+.avatar{height:330px;background-size:700% auto;background-position-y:bottom}
+@media(max-width:760px){.intro-shortcuts{grid-template-columns:repeat(2,minmax(130px,1fr));width:min(430px,88vw)}.avatar{height:300px;background-size:700% auto}}
+@media(max-width:420px){.intro-shortcuts{grid-template-columns:1fr}.avatar{height:285px}}
+
