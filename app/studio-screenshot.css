@@ -1,0 +1,14 @@
+.intro:before,.intro:after{display:none!important}
+.mountains,.m1,.m2,.hero:after{display:none!important}
+.site-shell{background-image:linear-gradient(#f3e7ce72,#efe0c268),url('/images/backgrounds/heritage-painting-v2.png')!important;background-position:center!important;background-size:cover!important;background-attachment:fixed!important}
+.content-page{background-image:linear-gradient(#f3e7ce72,#efe0c268),url('/images/backgrounds/heritage-painting-v2.png')!important;background-position:center!important;background-size:cover!important;background-attachment:fixed!important}
+.content-page .source-copy,.content-page .region-list,.content-page .record-player{background:#f5ead6d9;padding:24px;border-radius:16px;box-shadow:0 10px 28px #513b2224;backdrop-filter:blur(3px)}
+.studio-image-ui{width:min(100%,1400px);aspect-ratio:1400/1123;margin:0 auto;background:#eadabd;overflow:hidden}
+.studio-image-ui>img{display:block;width:100%;height:100%;object-fit:contain}
+.studio-image-ui .studio-slots button.active{animation:none!important;transform:none!important}
+.studio-image-ui .studio-slots button.active span{width:92%;height:92%;display:flex;flex-direction:column;align-items:center;justify-content:flex-end;border-radius:14px;color:#fff4dc;box-shadow:inset 0 0 0 2px #f1cf88;background-color:#33271ee8;background-image:url('/images/reference/studio.png');background-repeat:no-repeat;background-size:700% auto;background-position-y:96%;padding-bottom:7px;text-shadow:0 1px 3px #000}
+.studio-image-ui .placed-geomungo{background-position-x:1.6%}.studio-image-ui .placed-sogeum{background-position-x:16%}.studio-image-ui .placed-haegeum{background-position-x:30.5%}.studio-image-ui .placed-gayageum{background-position-x:45%}.studio-image-ui .placed-janggu{background-position-x:59.5%}.studio-image-ui .placed-kkwaenggwari{background-position-x:74%}.studio-image-ui .placed-piano{background-position-x:96.4%}
+.studio-image-ui .placed-asset b{background:#241b15dc;padding:2px 8px;border-radius:8px}
+.studio-image-ui .studio-instruments button,.studio-image-ui .studio-instruments button.active{background:transparent!important;box-shadow:none!important;transform:none!important;outline-offset:-3px}
+.studio-image-ui .studio-slots small{display:block;margin-top:4px}
+@media(max-width:520px){.studio-image-ui{min-height:0!important;aspect-ratio:1400/1123!important;overflow:hidden!important}.studio-image-ui>img{min-width:0!important;object-fit:contain!important}.studio-image-ui .studio-slots,.studio-image-ui .studio-instruments,.studio-image-ui .studio-reset{min-width:0!important}.studio-image-ui .studio-close{position:absolute!important;font-size:9px;padding:4px 6px}.studio-image-ui .studio-volume{display:none}}

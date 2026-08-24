@@ -1,0 +1,29 @@
+/* Visual refinement based on the supplied exhibition mock-up. */
+:root{--hanji:#efe6d4;--hanji-light:#f7eedc;--ink:#1c1814;--bronze:#8b6839;--bronze-soft:#b89661}
+body,button,input{font-family:"Nanum Myeongjo","Noto Serif KR","Batang","바탕",serif}
+.intro h1,.hero-copy h1,.page-heading h1,.studio-built-header h1{font-family:"Gungsuh","궁서","Nanum Myeongjo","Batang",serif;letter-spacing:.09em;text-shadow:0 2px 0 #fff5}
+.intro{background-color:var(--hanji)!important;background-image:linear-gradient(#f3e7ce35,#efe0c22f),url('/images/backgrounds/heritage-painting-v2.png')!important;background-position:center!important;background-size:cover!important}
+.intro:before,.intro:after{opacity:.65}
+.intro-shortcuts button,.intro-actions button,.frame-button,.home-cards button,.side-rail button,.topbar nav button,.studio-controls button,.instrument-grid button,.sound-slot,.region-tabs button,.region-list button,.listen-tabs button,.track-grid>button,.map-tabs button{border-radius:14px}
+.intro-shortcuts button,.intro-actions button,.frame-button{box-shadow:inset 0 0 0 1px #fff7,0 5px 14px #64451f1c}
+.site-shell,.content-page,.studio-built{background-color:var(--hanji);background-image:radial-gradient(#735b3b17 1px,transparent 1px),linear-gradient(112deg,#fffaf066,#cdb78d22 48%,#fff8e455);background-size:6px 6px,100% 100%}.home-page{background-color:var(--hanji);background-image:linear-gradient(#f5e9d12e,#efe0c32a),url('/images/backgrounds/heritage-painting-v2.png');background-position:center;background-size:cover;background-attachment:fixed}
+.side-rail{border-right:1px solid #a9844a;background-color:#17140f;background-image:linear-gradient(45deg,#a77b2910 25%,transparent 25% 75%,#a77b2910 75%),linear-gradient(-45deg,#a77b2910 25%,transparent 25% 75%,#a77b2910 75%);background-size:18px 18px}
+.hero:after{content:"";position:absolute;inset:auto 0 0;height:42%;pointer-events:none;background:linear-gradient(172deg,transparent 28%,#4a4a4230 29% 31%,transparent 32%),linear-gradient(8deg,transparent 38%,#5a574d24 39% 43%,transparent 44%);opacity:.6}
+.plum{filter:sepia(.25);opacity:.9}
+.home-cards button{border-color:#9a784b88;background:#f0e2c8e8}
+.studio-stage-built{overflow:visible}
+.character-grid{overflow:visible;padding:0 2px}
+.character-card{overflow:visible}
+.character-portrait{height:310px;background-position-y:30%;background-size:620% auto;background-color:#2a241d;overflow:visible}
+.char-0 .character-portrait{background-position-x:8.8%}.char-1 .character-portrait{background-position-x:22.5%}.char-2 .character-portrait{background-position-x:36.7%}.char-3 .character-portrait{background-position-x:50.4%}.char-4 .character-portrait{background-position-x:64.2%}.char-5 .character-portrait{background-position-x:77.9%}.char-6 .character-portrait{background-position-x:91.7%}
+.character-card.playing{animation:none;filter:none;transform:none}.character-card.playing .character-portrait{box-shadow:inset 0 -20px 20px #0004,0 0 0 3px #c99a4f,0 0 20px #d5aa5e88}
+.sound-slot{overflow:hidden}
+.instrument-crop{background-position-y:88%;background-size:620% auto;background-color:#ead5ae;background-repeat:no-repeat}
+.instrument-grid{align-items:stretch}
+.instrument-grid button{height:auto;min-height:205px;overflow:visible;padding:12px}
+.instrument-grid button.selected{transform:none}
+.tray-crop{height:132px;min-height:132px;border-radius:10px;background-color:#f1dfbd;background-repeat:no-repeat;background-position-y:88%;background-size:620% auto;box-shadow:inset 0 0 0 1px #a77b4540}
+.crop-geomungo{background-position-x:1.6%}.crop-sogeum{background-position-x:16%}.crop-haegeum{background-position-x:30.5%}.crop-gayageum{background-position-x:45%}.crop-janggu{background-position-x:59.5%}.crop-kkwaenggwari{background-position-x:74%}.crop-piano{background-position-x:96.4%}
+@media(max-width:1000px){.character-grid,.instrument-grid{overflow:visible;grid-template-columns:repeat(4,minmax(130px,1fr));}.character-portrait{height:300px}.instrument-grid button{min-height:195px}}
+@media(max-width:600px){.character-grid,.instrument-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;overflow:visible}.character-portrait{height:330px;background-size:620% auto}.sound-slot{margin-top:-54px;height:132px}.instrument-grid button{min-height:205px}.tray-crop{height:128px;min-height:128px}.studio-stage-built{overflow:hidden}.intro-shortcuts button,.intro-actions button{border-radius:12px}}
+.poster-panel{margin:0;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:24px;background:#211e18;border:1px solid #9a784b;box-shadow:inset 0 0 45px #0008,0 16px 35px #4b38262b}.poster-panel img{display:block;width:min(100%,330px);max-height:520px;object-fit:contain;border:8px solid #ead8b5;box-shadow:0 9px 25px #0008}.poster-panel figcaption{margin-top:14px;color:#dec6a1;font-size:13px;letter-spacing:.08em}
